@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: NUMBER_OF_TRIPS_HOURLY
+    description: "Compute each hour number of trips, average trip duration, and average trip distance"
+    columns:
+      - name: "num trips"
+        quote: true
+        description: "Not Null Check"
+        tests:
+          - not_null
+  - name: BUSY_WEEK_RIDE
+    columns:
+      - name: "num trips"
+        quote: true
+        description: "Not Null Check"
+        tests:
+          - not_null

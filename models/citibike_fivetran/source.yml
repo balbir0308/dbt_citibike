@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: SOURCE_TRIP
+    database: "{{ target.database|upper }}"
+    schema: SRC
+    tables:
+      - name: TRIPS
+      - name: JSON_WEATHER_DATA

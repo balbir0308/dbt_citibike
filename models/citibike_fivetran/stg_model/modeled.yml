@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: TRIPS_VW
+    description: "Build View for Raw Trip Data"
