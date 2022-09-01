@@ -23,4 +23,4 @@
 ]
 %}
 
-{{build_trips_vw_sql(__columns, source("raw.trips","TRIPS"))}}
+{{build_trips_vw_sql(__columns, source("citibike_lab_raw.trips","TRIPS"))}}

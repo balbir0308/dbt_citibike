@@ -1,12 +1,12 @@
 version: 2
 
 sources:
-  - name: raw.trips
+  - name: citibike_lab_raw.trips
     database: "{{ target.database|upper }}"
     schema: RAW
     tables:
       - name: TRIPS
-  - name: raw.json_weather_data
+  - name: citibike_lab_raw.json_weather_data
     database: "{{ target.database|upper }}"
     schema: RAW
     tables:
