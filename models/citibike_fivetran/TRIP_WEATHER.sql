@@ -1,4 +1,4 @@
-{{ config(materialized='table',schema="CNF") }}
+{{ config(materialized='table',schema="CITIBIKE_LAB_RAW") }}
 
 select
 weather as conditions ,

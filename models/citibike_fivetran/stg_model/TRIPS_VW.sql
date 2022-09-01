@@ -1,6 +1,6 @@
 {{ config(
             materialized="view",
-            schema="SRC"
+            schema="CITIBIKE_LAB_RAW"
 ) }}
 
 {% set __columns = [
